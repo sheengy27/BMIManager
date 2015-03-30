@@ -5,7 +5,8 @@
 public class Patient {
     private String name;
     private int age;
-    private double height, weight;
+    private double height;
+    private double weight;
 
     public Patient(String name, int age,
                    double height, double weight) {
